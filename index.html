@@ -11,10 +11,8 @@
     <style>
         body{background-color: #000;}
         #typewriteText{color: #fff;font-size: 50px; font-family: 'Special Elite', Arial, Helvetica, sans-serif; position: fixed; left: 35%; top: 25%; width: 35%;}
-        #typewriterText div{
-            margin: 0 auto;
-            height: 20px;
-        }
+        @media only screen and (min-width: 600px) {
+            #typewriterText{font-size:32px;width:90%;left:10%;top:10%;}} 
     </style>
     <script>
         $(document).ready(function(){
@@ -32,7 +30,9 @@
                     {delay: 3000},
                     {type: '<br>'},
                      {type: '<br>'},
-                    {type: 'Give the codeword \'Margarine\' to the taskmaster for the next clue '}
+                    {type: 'Give the codeword \'Margarine\' to the taskmaster for the next clue.'},
+                    {delay: 3000},
+                    {delay: 3000},
                 ]
             });
         });
