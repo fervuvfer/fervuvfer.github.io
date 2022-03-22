@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>typewrite example</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <!--<script type="text/javascript" src="https://cdn.rawgit.com/mrvautin/typewrite/master/dist/typewrite.min.js"></script>-->
+    <script type="text/javascript" src="src/typewrite.js"></script>
+    <style>
+        body{background-color: #000;}
+        #typewriteText{color: #fff;font-size: 50px; font-family: 'Special Elite', Arial, Helvetica, sans-serif; position: fixed; left: 35%; top: 25%; width: 35%;}
+    </style>
+    <script>
+        $(document).ready(function(){
+            $('#typewriteText').typewrite({
+                continuous: true,
+                actions: [
+                    {type: 'Hello. '},
+                    {type: '<br>'},
+                    {type: 'Welcome to Taskmaster II'},
+                    {delay: 600},
+                    {type: '<br>'},
+                    {type: 'You\'re on the right path to some bonus points.'}
+                ]
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="typewriteText"></div>
+</body>
+</html>
