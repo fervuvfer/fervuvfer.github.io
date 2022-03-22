@@ -15,15 +15,16 @@
     <script>
         $(document).ready(function(){
             $('#typewriteText').typewrite({
-                continuous: true,
+                continuous: false,
                 actions: [
+                    {delay: 1200},
                     {type: 'Hello. '},
                     {type: '<br>'},
                     {type: 'Welcome to Taskmaster II'},
-                    {delay: 600},
+                    {delay: 1200},
                     {type: '<br>'},
-                    {type: 'You\'re on the right path to some bonus points.'}
-                    {delay: 600},
+                    {type: 'You\'re on the right path to some bonus points.'},
+                    {delay: 1200},
                     {type: '<br>'},
                     {type: 'Give the codeword \'Margarine\' to the taskmaster for the next clue '}
                 ]
