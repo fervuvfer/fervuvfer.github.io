@@ -11,6 +11,10 @@
     <style>
         body{background-color: #000;}
         #typewriteText{color: #fff;font-size: 50px; font-family: 'Special Elite', Arial, Helvetica, sans-serif; position: fixed; left: 35%; top: 25%; width: 35%;}
+        #typewriterText div{
+            margin: 0 auto;
+            height: 20px;
+        }
     </style>
     <script>
         $(document).ready(function(){
@@ -19,13 +23,15 @@
                 actions: [
                     {delay: 1200},
                     {type: 'Hello.'},
-                    {type: '<br>'},
+                     {type: '<br>'}, {type: '<br>'},
                     {type: 'Welcome to Taskmaster II'},
-                    {delay: 1200},
+                    {delay: 3000},
                     {type: '<br>'},
+                     {type: '<br>'},
                     {type: 'You\'re on the right path to some bonus points.'},
-                    {delay: 1200},
+                    {delay: 3000},
                     {type: '<br>'},
+                     {type: '<br>'},
                     {type: 'Give the codeword \'Margarine\' to the taskmaster for the next clue '}
                 ]
             });
