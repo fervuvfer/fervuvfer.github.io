@@ -13,6 +13,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+<script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=YpdkjM"></script>
     <!--<script type="text/javascript" src="https://cdn.rawgit.com/mrvautin/typewrite/master/dist/typewrite.min.js"></script>-->
     <script type="text/javascript" src="src/typewrite.js"></script>
     <style>
@@ -70,8 +71,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
              document.getElementsByClassName('row-fluid')[0].style.visibility = 'hidden';
 
-             window.dataLayer = window.dataLayer || [];
-               window.dataLayer.push({'event': 'pass_phrase_submit'});
+             dataLayer.push({
+                        'passphrase': ,
+                        'event': 'pass_phrase_submit'
+                      });
 
            }else{ alert('Access Denied, Please try again');}
        }
@@ -129,7 +132,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="row-fluid">
                     <label>Enter your passcode</label><br />
                     <input type="password" name="password" maxlength="4" class="span7" id="password" placeholder="enter code here" required/>
-                    <button class="button1" id="button1" onclick="onSubmit()">Submit</button>
+                    <button class="button1" id="button1" onclick="onSubmit();">Submit</button>
             </div>
 
 
