@@ -20,19 +20,66 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         body{
           background-color: #333333;
         }
+        #typewriteText{color: #fff;font-size: 50px; font-family: 'Special Elite', Arial, Helvetica, sans-serif; position: fixed; left: 15%; top: 25%; width: 50%;}
+        @media only screen and (min-width: 600px) {
+            #typewriteText{font-size:40px;width:80%;left:10%;top:10%;right:10%;}}
+
+            .row-fluid {
+            	margin-top: 5%;
+            	margin-left: 40%;
+            	margin-right: auto;
+            }
+
+            .button1 {
+            	margin-left: 43%;
+            }
+
+            label {
+            	font: normal 18px Georgia,serif;
+            }
+
+            .button2 {
+            	display: none;
+            	margin-left: 41%;
+            	width: 120px;
+            }
 
     </style>
     <script>
-
-</script>
-
+        $(document).ready(function(){
+            $('#typewriteText').typewrite({
+                continuous: true,
+                actions: [
+                    {delay: 1200},
+                    {type: 'Hello.'},
+                     {type: '<br>'}, {type: '<br>'},
+                    {type: 'Well done, you\'re almost there.'},
+                    {delay: 3000},
+                    {type: '<br>'},
+                     {type: '<br>'},
+                    {type: 'Come here again on 22/4/22 for your next task.'},
+                    {delay: 3000},
+                    {delay: 3000},
+                ]
+            });
+        });
+    </script>
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M4D6FP5"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-<script type="text/javascript" src="https://form.jotform.com/jsform/220852827311048"></script>
+
+<div id="typewriteText" class=""></div>
+  </body>
+  </html>
+
+
+
+
+
+
 
 
 
