@@ -1,5 +1,4 @@
-<?php
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <title>Taskmaster II</title>
@@ -19,6 +18,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=YpdkjM"></script>
     <link rel="stylesheet" href="contestants.css" >
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="csi.min.js"></script>
 
 </head>
 <body>
@@ -57,7 +57,6 @@ var password = "cat"; // because ANYONE CAN SEE THIS IN VIEW SOURCE!
   <!-- End Google Tag Manager (noscript) -->
 
   <header>
-     <div id="brand"><a href="#tasks"><img class="logo" src="/Taskmaster_II.png"/></a></div>
      <nav>
        <ul>
          <li><a href="#tasks">Tasks</a></li>
@@ -110,9 +109,8 @@ var password = "cat"; // because ANYONE CAN SEE THIS IN VIEW SOURCE!
       <p class="points">5 Points = First, 1 Point = 5th</p>
     </div>
 </div>
-<?php
-include 'basic-info.php';
-?>
+<div data-include="basic-info.html"></div>
+
 
   </body>
   </html>
