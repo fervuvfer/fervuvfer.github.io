@@ -43,6 +43,13 @@ html{scroll-behavior:smooth}
 
 }
 
+.letter section p{
+  margin: 0;
+}
+.letter section{
+  margin: 10px 0;
+}
+
 .badge{
   padding: 8px 7px 3px 7px;
   color:#ffffff;
@@ -200,4 +207,24 @@ ul li:hover {
 img.logo{
   padding: 6px 4px 2px 4px;
   height: 26px;
+}
+
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
