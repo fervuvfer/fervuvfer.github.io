@@ -17,6 +17,12 @@ body{
   line-height: 44px;
   background:url("ricepaper2.png") repeat center;
 }
+
+div.form{
+  background: none !important;
+  box-shadow: none !important;
+
+}
 #container{
   width: 90%;
   margin: 0 auto;

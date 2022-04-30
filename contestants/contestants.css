@@ -23,6 +23,13 @@ html{scroll-behavior:smooth}
   background:url("../ricepaper2.png") repeat center;
 }
 
+div.form{
+  background: none !important;
+  box-shadow: none !important;
+  margin: 0;
+
+}
+
 .letter p{
   font-size: 22px;
   line-height: 32px;
