@@ -23,6 +23,18 @@ html{scroll-behavior:smooth}
   background:url("../ricepaper2.png") repeat center;
 }
 
+div.title{
+  padding: 0;
+  background:none;
+  color: #ffffff;
+  box-shadow: none;
+  min-height: 10px;
+}
+
+div.title p{
+  margin: 0;
+}
+
 div.form{
   background: none !important;
   box-shadow: none !important;
