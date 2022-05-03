@@ -221,6 +221,9 @@ ul li:hover {
   .letter{
     padding: 30px;
   }
+  .letter p.task-title{
+    font-size: 20px;
+    line-height: 32px;
 }
 
 img.logo{
