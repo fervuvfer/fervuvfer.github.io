@@ -214,6 +214,11 @@ ul li:hover {
   header nav {
     display: none;
   }
+  header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
 
   #hamburger-icon {
     display: block;
