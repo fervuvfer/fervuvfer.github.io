@@ -21,6 +21,7 @@ html{scroll-behavior:smooth}
   font-size: 22px; font-family: 'Special Elite', Arial, Helvetica, sans-serif;
   line-height: 40px;
   background:url("../ricepaper2.png") repeat center;
+  z-index: -100;
 }
 
 div.title{
@@ -198,7 +199,7 @@ ul li:hover {
 .mobile-menu {
   display: none;
   position: absolute;
-  top: 70px;
+  padding-top: 70px;
   left: 0;
   height: calc(100vh - 50px);
   width: 100%;
