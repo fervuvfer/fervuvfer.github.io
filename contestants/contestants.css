@@ -210,6 +210,13 @@ ul li:hover {
   margin-bottom: 10px;
 }
 
+@media only screen and (min-width:601px){
+  #brand img{
+    height: 18px;
+    padding-top: 4px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   header nav {
     display: none;
@@ -218,6 +225,10 @@ ul li:hover {
     position: fixed;
     width: 100%;
     top: 0;
+  }
+
+  .first-title{
+    margin-top: 80px;
   }
 
   #hamburger-icon {
