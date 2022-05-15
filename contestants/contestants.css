@@ -21,7 +21,7 @@ html{scroll-behavior:smooth}
   font-size: 22px; font-family: 'Special Elite', Arial, Helvetica, sans-serif;
   line-height: 40px;
   background:url("../ricepaper2.png") repeat center;
-  z-index: 0;
+  z-index: -200;
 }
 
 div.title{
