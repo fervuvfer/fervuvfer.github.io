@@ -248,7 +248,13 @@ ul li:hover {
   .letter p.task-title{
     font-size: 20px;
     line-height: 32px;
+  }
+  .letter p{
+    font-size: 18px;
+    line-height: 28px;
+  }
 }
+
 
 img.logo{
   padding: 6px 4px 2px 4px;
