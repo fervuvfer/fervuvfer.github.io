@@ -22,6 +22,7 @@ html{scroll-behavior:smooth}
   line-height: 40px;
   background:url("../ricepaper2.png") repeat center;
   z-index: -200;
+  position: relative;
 }
 
 div.title{
