@@ -306,3 +306,7 @@ img.logo{
 .iframe-container p{
   z-index: -100;
 }
+
+.letter a{
+  z-index: 1000;
+}
