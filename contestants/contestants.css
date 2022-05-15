@@ -91,6 +91,8 @@ div.form{
   width: 90%;
   margin: 0 auto;
   max-width: 850px;
+  z-index: 50;
+  position: relative;
 }
 
 .header{
