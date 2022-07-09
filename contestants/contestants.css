@@ -318,3 +318,9 @@ img.logo{
 .new{
   background: blue !important;
 }
+
+p.hiddenbonus{
+  color:#1c1c1c;
+  font-size: 10px;
+  text-align: center;
+}
