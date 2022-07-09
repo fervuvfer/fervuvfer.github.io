@@ -177,7 +177,7 @@ ul li:hover {
 
 #hamburger-icon {
   margin: auto 0;
-  display: none;
+  display: none !important;
   cursor: pointer;
 }
 
@@ -187,6 +187,7 @@ ul li:hover {
   background-color: white;
   margin: 6px 0;
   transition: 0.4s;
+  display: none;
 }
 
 .open .bar1 {
