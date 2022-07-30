@@ -339,3 +339,13 @@ p.hiddenbonus{
   color: #000000;
   padding: 5px 7px;
 }
+
+.no-bg{
+  background: none !important;
+  background-image: none;
+  box-shadow: none !important;
+}
+
+.no-bg img{
+  width: 100%;
+}
