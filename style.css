@@ -67,3 +67,4 @@ div.form{
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
+@import url("https://cdn.jsdelivr.net/npm/bullframe.css");
