@@ -36,7 +36,7 @@ div.form{
   margin: 0 auto;
 }
 
-.container .chatbot{
+#container .chatbot{
   max-width: 500px;
   margin-top: 25px;
 }
