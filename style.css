@@ -73,3 +73,10 @@ div.form{
   transform: translateX(-50%) translateY(-50%);
 }
 @import url("https://cdn.jsdelivr.net/npm/bullframe.css");
+
+h1.comingsoon{
+  text-align: center;
+  font-size: 32px;
+  color: #ffffff;
+  margin-top: 80px;
+}
