@@ -34,7 +34,7 @@ video {
 }
 h1 {
   font-family: 'Special Elite', Arial, Helvetica, sans-serif;
-    font-size: clamp(45px, 7vw, 130px);
+    font-size: clamp(40px, 6vw, 110px);
     line-height: 1.1;
 }
 
@@ -46,7 +46,7 @@ h1 {
 
 .home-content button {
     display: block;
-    font-size: clamp(14px, 1.2vw, 16px);
+    font-size: clamp(14px, 1.5vw, 18px);
     border: 1px solid #f1f1f1;
     border-radius: 5px;
     background: #ffffff;
