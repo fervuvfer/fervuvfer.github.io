@@ -46,13 +46,13 @@ h1 {
 
 .home-content button {
     display: block;
-    font-size: clamp(14px, 1.5vw, 18px);
+    font-size: clamp(14px, 1.2vw, 16px);
     border: 1px solid #f1f1f1;
     border-radius: 5px;
     background: #ffffff;
     color: #000000;
     margin: 50px auto 0;
-    padding: 12px 20px;
+    padding: 16px 20px 12px 20px;
     cursor: pointer;
     font-family: 'Special Elite', Arial, Helvetica, sans-serif;
 
