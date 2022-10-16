@@ -58,6 +58,10 @@ h1 {
 
 }
 
+.home a{
+  text-decoration: none;
+}
+
 .home-content button:nth-of-type(2){
   background: transparent;
   color: #fff;
